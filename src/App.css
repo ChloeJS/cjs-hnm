@@ -1,0 +1,105 @@
+.login-button {
+  display: flex;
+  justify-content: end;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.logout-button {
+  display: flex;
+  justify-content: center;
+}
+
+.logout-button2 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-section{
+  display: flex;
+  justify-content: center;
+}
+
+.main-logo {
+  cursor: pointer;
+}
+
+.menu-list{
+  display: flex;
+  list-style-type: none;
+  justify-content: center; /* 가로 방향 가운데 정렬 */
+  align-items: center; /* 세로 방향 가운데 정렬 */
+}
+
+.menu-list li {
+  padding: 15px;
+}
+
+.menu-area{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.menu-search{
+  justify-content: end;
+}
+
+.menu-search-input {
+  border-width: 0 0 1px;
+}
+
+.card {
+  width: 100%; /* 이미지를 부모 요소의 너비에 맞게 조절 */
+  height: 100%; 
+  position: relative;
+}
+
+.card:hover {
+  width: 250px; 
+  border: 3px solid black;
+  margin: 0 auto; /* 블록요소 가운데처리 */
+  overflow: hidden; /* float받은 자손이나 후손의 높이도 인식 */
+
+}
+
+.product-img {
+  display: flex;
+  justify-content: end;
+}
+
+.product-title {
+  font-size: xx-large;
+}
+
+.product-price {
+  font-size: x-large;
+  padding-top: 3px;
+}
+
+.product-new {
+  font-size: larger;
+  padding-top: 10px;
+}
+
+.product-choice {
+  font-size: larger;
+  padding-top: 10px;
+}
+
+.product-size-dropdown {
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.product-add-button {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.product-add-button button {
+  width: 100%;
+}
